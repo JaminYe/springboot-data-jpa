@@ -1,0 +1,1551 @@
+2020-04-03 14:07:00.933 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 544 (D:\Documents\eclipse-workspace\springboot-data-jpa\target\classes started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 14:07:00.933 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 14:07:00.995 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-03 14:07:00.995 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 14:07:00.995 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 14:07:01.672 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 14:07:01.727 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 44ms. Found 1 JPA repository interfaces.
+2020-04-03 14:07:02.344 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-03 14:07:02.354 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-03 14:07:02.355 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-03 14:07:02.355 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 14:07:02.481 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-03 14:07:02.482 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1487 ms
+2020-04-03 14:07:02.607 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 14:07:02.796 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 14:07:02.874 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 14:07:02.929 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 14:07:03.029 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 14:07:03.275 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 14:07:03.790 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 14:07:03.796 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 14:07:04.191 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 14:07:04.408 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-03 14:07:04.428 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 14:07:04.430 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 3.893 seconds (JVM running for 5.057)
+2020-04-03 14:07:10.898 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 14:07:10.899 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-03 14:07:10.908 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 9 ms
+2020-04-03 14:07:11.852 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10, 10 
+ {executed in 1 msec}
+2020-04-03 14:07:11.878 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-03 14:08:37.534 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%测试%%' escape '\' order by user0_.id 
+asc limit 10, 10 
+ {executed in 1 msec}
+2020-04-03 14:08:37.538 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%测试%%' escape 
+'\' 
+ {executed in 1 msec}
+2020-04-03 14:19:21.981 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper Line:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.jaminye.springbootdatajpa.service.UserServiceTest], using SpringBootContextLoader
+2020-04-03 14:19:21.989 INFO  org.springframework.test.context.support.AbstractContextLoader Line:264 - Could not detect default resource locations for test class [cn.jaminye.springbootdatajpa.service.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-03 14:19:21.990 INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Line:83  - Could not detect default configuration classes for test class [cn.jaminye.springbootdatajpa.service.UserServiceTest]: UserServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-03 14:19:22.189 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper Line:235 - Found @SpringBootConfiguration cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication for test class cn.jaminye.springbootdatajpa.service.UserServiceTest
+2020-04-03 14:19:22.360 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper Line:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-03 14:19:22.380 INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper Line:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d7758be, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2bdd8394, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f9edf14, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68746f22, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f01783a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@68878f6d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41488b16, org.springframework.test.context.event.EventPublishingTestExecutionListener@a8ef162, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2eea88a1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7ac296f6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7fd7a283, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@22f59fa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78fa769e]
+2020-04-03 14:19:22.962 INFO  cn.jaminye.springbootdatajpa.service.UserServiceTest Line:55  - Starting UserServiceTest on Jamin with PID 14344 (started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 14:19:22.964 INFO  cn.jaminye.springbootdatajpa.service.UserServiceTest Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 14:19:24.014 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 14:19:24.081 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 54ms. Found 1 JPA repository interfaces.
+2020-04-03 14:19:24.495 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 14:19:24.844 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 14:19:25.000 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 14:19:25.133 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 14:19:25.316 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 14:19:25.980 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 14:19:26.758 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 14:19:26.766 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 14:19:27.930 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 14:19:28.542 INFO  cn.jaminye.springbootdatajpa.service.UserServiceTest Line:61  - Started UserServiceTest in 6.084 seconds (JVM running for 7.723)
+2020-04-03 14:19:28.752 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:28.771 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 103 where next_val=102 
+ {executed in 3 msec}
+2020-04-03 14:19:28.824 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (0, '张三0', '1111110', 102) 
+ {executed in 7 msec}
+2020-04-03 14:19:28.832 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.834 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 104 where next_val=103 
+ {executed in 0 msec}
+2020-04-03 14:19:28.837 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, '张三1', '1111111', 103) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.843 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:28.845 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 105 where next_val=104 
+ {executed in 1 msec}
+2020-04-03 14:19:28.849 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (2, '张三2', '1111112', 104) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.854 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.858 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 106 where next_val=105 
+ {executed in 1 msec}
+2020-04-03 14:19:28.861 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (3, '张三3', '1111113', 105) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.866 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.868 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 107 where next_val=106 
+ {executed in 1 msec}
+2020-04-03 14:19:28.871 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (4, '张三4', '1111114', 106) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.877 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:28.879 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 108 where next_val=107 
+ {executed in 1 msec}
+2020-04-03 14:19:28.882 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (5, '张三5', '1111115', 107) 
+ {executed in 0 msec}
+2020-04-03 14:19:28.886 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.887 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 109 where next_val=108 
+ {executed in 0 msec}
+2020-04-03 14:19:28.891 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (6, '张三6', '1111116', 108) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.895 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.897 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 110 where next_val=109 
+ {executed in 1 msec}
+2020-04-03 14:19:28.900 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (7, '张三7', '1111117', 109) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.905 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.906 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 111 where next_val=110 
+ {executed in 0 msec}
+2020-04-03 14:19:28.917 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (8, '张三8', '1111118', 110) 
+ {executed in 8 msec}
+2020-04-03 14:19:28.924 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:28.926 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 112 where next_val=111 
+ {executed in 0 msec}
+2020-04-03 14:19:28.931 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (9, '张三9', '1111119', 111) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.937 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:28.939 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 113 where next_val=112 
+ {executed in 1 msec}
+2020-04-03 14:19:28.943 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (10, '张三10', '11111110', 112) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.949 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.952 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 114 where next_val=113 
+ {executed in 1 msec}
+2020-04-03 14:19:28.954 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, '张三11', '11111111', 113) 
+ {executed in 0 msec}
+2020-04-03 14:19:28.961 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.964 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 115 where next_val=114 
+ {executed in 1 msec}
+2020-04-03 14:19:28.967 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (12, '张三12', '11111112', 114) 
+ {executed in 1 msec}
+2020-04-03 14:19:28.972 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.976 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 116 where next_val=115 
+ {executed in 1 msec}
+2020-04-03 14:19:28.980 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (13, '张三13', '11111113', 115) 
+ {executed in 0 msec}
+2020-04-03 14:19:28.985 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:28.987 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 117 where next_val=116 
+ {executed in 0 msec}
+2020-04-03 14:19:28.990 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (14, '张三14', '11111114', 116) 
+ {executed in 0 msec}
+2020-04-03 14:19:28.999 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.000 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 118 where next_val=117 
+ {executed in 0 msec}
+2020-04-03 14:19:29.003 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (15, '张三15', '11111115', 117) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.010 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.012 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 119 where next_val=118 
+ {executed in 1 msec}
+2020-04-03 14:19:29.015 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (16, '张三16', '11111116', 118) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.020 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.022 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 120 where next_val=119 
+ {executed in 1 msec}
+2020-04-03 14:19:29.026 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (17, '张三17', '11111117', 119) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.032 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.034 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 121 where next_val=120 
+ {executed in 1 msec}
+2020-04-03 14:19:29.038 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (18, '张三18', '11111118', 120) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.046 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.048 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 122 where next_val=121 
+ {executed in 1 msec}
+2020-04-03 14:19:29.051 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (19, '张三19', '11111119', 121) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.055 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.057 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 123 where next_val=122 
+ {executed in 1 msec}
+2020-04-03 14:19:29.061 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (20, '张三20', '11111120', 122) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.065 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.067 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 124 where next_val=123 
+ {executed in 0 msec}
+2020-04-03 14:19:29.070 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (21, '张三21', '11111121', 123) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.076 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.078 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 125 where next_val=124 
+ {executed in 1 msec}
+2020-04-03 14:19:29.081 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (22, '张三22', '11111122', 124) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.085 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.086 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 126 where next_val=125 
+ {executed in 0 msec}
+2020-04-03 14:19:29.090 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (23, '张三23', '11111123', 125) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.094 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.096 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 127 where next_val=126 
+ {executed in 0 msec}
+2020-04-03 14:19:29.099 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (24, '张三24', '11111124', 126) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.103 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.104 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 128 where next_val=127 
+ {executed in 0 msec}
+2020-04-03 14:19:29.107 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (25, '张三25', '11111125', 127) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.112 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.113 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 129 where next_val=128 
+ {executed in 1 msec}
+2020-04-03 14:19:29.117 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (26, '张三26', '11111126', 128) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.121 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.123 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 130 where next_val=129 
+ {executed in 1 msec}
+2020-04-03 14:19:29.127 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (27, '张三27', '11111127', 129) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.133 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.136 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 131 where next_val=130 
+ {executed in 1 msec}
+2020-04-03 14:19:29.141 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (28, '张三28', '11111128', 130) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.146 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.148 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 132 where next_val=131 
+ {executed in 0 msec}
+2020-04-03 14:19:29.152 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (29, '张三29', '11111129', 131) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.157 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.161 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 133 where next_val=132 
+ {executed in 1 msec}
+2020-04-03 14:19:29.164 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (30, '张三30', '11111130', 132) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.168 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.170 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 134 where next_val=133 
+ {executed in 1 msec}
+2020-04-03 14:19:29.173 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (31, '张三31', '11111131', 133) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.180 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.181 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 135 where next_val=134 
+ {executed in 0 msec}
+2020-04-03 14:19:29.186 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (32, '张三32', '11111132', 134) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.194 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.197 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 136 where next_val=135 
+ {executed in 1 msec}
+2020-04-03 14:19:29.200 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (33, '张三33', '11111133', 135) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.205 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.206 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 137 where next_val=136 
+ {executed in 1 msec}
+2020-04-03 14:19:29.210 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (34, '张三34', '11111134', 136) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.215 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.217 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 138 where next_val=137 
+ {executed in 1 msec}
+2020-04-03 14:19:29.221 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (35, '张三35', '11111135', 137) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.227 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.229 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 139 where next_val=138 
+ {executed in 0 msec}
+2020-04-03 14:19:29.231 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (36, '张三36', '11111136', 138) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.235 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.237 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 140 where next_val=139 
+ {executed in 1 msec}
+2020-04-03 14:19:29.239 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (37, '张三37', '11111137', 139) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.244 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.245 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 141 where next_val=140 
+ {executed in 0 msec}
+2020-04-03 14:19:29.248 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (38, '张三38', '11111138', 140) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.253 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.255 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 142 where next_val=141 
+ {executed in 1 msec}
+2020-04-03 14:19:29.258 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (39, '张三39', '11111139', 141) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.264 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.267 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 143 where next_val=142 
+ {executed in 1 msec}
+2020-04-03 14:19:29.270 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (40, '张三40', '11111140', 142) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.276 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.278 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 144 where next_val=143 
+ {executed in 1 msec}
+2020-04-03 14:19:29.280 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (41, '张三41', '11111141', 143) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.285 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.286 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 145 where next_val=144 
+ {executed in 0 msec}
+2020-04-03 14:19:29.289 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (42, '张三42', '11111142', 144) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.294 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.295 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 146 where next_val=145 
+ {executed in 0 msec}
+2020-04-03 14:19:29.298 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (43, '张三43', '11111143', 145) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.302 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.303 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 147 where next_val=146 
+ {executed in 0 msec}
+2020-04-03 14:19:29.305 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (44, '张三44', '11111144', 146) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.309 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.310 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 148 where next_val=147 
+ {executed in 0 msec}
+2020-04-03 14:19:29.313 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (45, '张三45', '11111145', 147) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.318 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.320 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 149 where next_val=148 
+ {executed in 0 msec}
+2020-04-03 14:19:29.322 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (46, '张三46', '11111146', 148) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.327 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.329 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 150 where next_val=149 
+ {executed in 0 msec}
+2020-04-03 14:19:29.333 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (47, '张三47', '11111147', 149) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.342 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 2 msec}
+2020-04-03 14:19:29.344 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 151 where next_val=150 
+ {executed in 1 msec}
+2020-04-03 14:19:29.348 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (48, '张三48', '11111148', 150) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.353 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.355 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 152 where next_val=151 
+ {executed in 0 msec}
+2020-04-03 14:19:29.362 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (49, '张三49', '11111149', 151) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.367 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.369 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 153 where next_val=152 
+ {executed in 1 msec}
+2020-04-03 14:19:29.372 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (50, '张三50', '11111150', 152) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.378 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.379 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 154 where next_val=153 
+ {executed in 0 msec}
+2020-04-03 14:19:29.382 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (51, '张三51', '11111151', 153) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.386 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.387 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 155 where next_val=154 
+ {executed in 0 msec}
+2020-04-03 14:19:29.390 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (52, '张三52', '11111152', 154) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.397 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.398 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 156 where next_val=155 
+ {executed in 0 msec}
+2020-04-03 14:19:29.402 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (53, '张三53', '11111153', 155) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.408 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.410 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 157 where next_val=156 
+ {executed in 0 msec}
+2020-04-03 14:19:29.413 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (54, '张三54', '11111154', 156) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.418 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.420 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 158 where next_val=157 
+ {executed in 0 msec}
+2020-04-03 14:19:29.422 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (55, '张三55', '11111155', 157) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.431 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.432 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 159 where next_val=158 
+ {executed in 0 msec}
+2020-04-03 14:19:29.436 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (56, '张三56', '11111156', 158) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.444 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 2 msec}
+2020-04-03 14:19:29.445 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 160 where next_val=159 
+ {executed in 0 msec}
+2020-04-03 14:19:29.448 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (57, '张三57', '11111157', 159) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.453 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.455 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 161 where next_val=160 
+ {executed in 1 msec}
+2020-04-03 14:19:29.458 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (58, '张三58', '11111158', 160) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.466 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.468 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 162 where next_val=161 
+ {executed in 1 msec}
+2020-04-03 14:19:29.473 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (59, '张三59', '11111159', 161) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.478 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.480 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 163 where next_val=162 
+ {executed in 1 msec}
+2020-04-03 14:19:29.484 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (60, '张三60', '11111160', 162) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.489 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.491 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 164 where next_val=163 
+ {executed in 1 msec}
+2020-04-03 14:19:29.497 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (61, '张三61', '11111161', 163) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.501 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.503 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 165 where next_val=164 
+ {executed in 1 msec}
+2020-04-03 14:19:29.506 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (62, '张三62', '11111162', 164) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.514 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.516 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 166 where next_val=165 
+ {executed in 0 msec}
+2020-04-03 14:19:29.521 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (63, '张三63', '11111163', 165) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.527 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.529 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 167 where next_val=166 
+ {executed in 0 msec}
+2020-04-03 14:19:29.533 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (64, '张三64', '11111164', 166) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.538 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.539 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 168 where next_val=167 
+ {executed in 0 msec}
+2020-04-03 14:19:29.544 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (65, '张三65', '11111165', 167) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.550 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.551 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 169 where next_val=168 
+ {executed in 0 msec}
+2020-04-03 14:19:29.556 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (66, '张三66', '11111166', 168) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.561 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.563 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 170 where next_val=169 
+ {executed in 1 msec}
+2020-04-03 14:19:29.566 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (67, '张三67', '11111167', 169) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.571 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.572 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 171 where next_val=170 
+ {executed in 0 msec}
+2020-04-03 14:19:29.576 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (68, '张三68', '11111168', 170) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.580 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.582 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 172 where next_val=171 
+ {executed in 1 msec}
+2020-04-03 14:19:29.585 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (69, '张三69', '11111169', 171) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.589 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.592 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 173 where next_val=172 
+ {executed in 1 msec}
+2020-04-03 14:19:29.595 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (70, '张三70', '11111170', 172) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.599 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.600 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 174 where next_val=173 
+ {executed in 0 msec}
+2020-04-03 14:19:29.603 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (71, '张三71', '11111171', 173) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.607 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.609 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 175 where next_val=174 
+ {executed in 0 msec}
+2020-04-03 14:19:29.612 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (72, '张三72', '11111172', 174) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.616 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.617 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 176 where next_val=175 
+ {executed in 0 msec}
+2020-04-03 14:19:29.621 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (73, '张三73', '11111173', 175) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.625 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.626 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 177 where next_val=176 
+ {executed in 0 msec}
+2020-04-03 14:19:29.630 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (74, '张三74', '11111174', 176) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.633 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.635 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 178 where next_val=177 
+ {executed in 0 msec}
+2020-04-03 14:19:29.637 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (75, '张三75', '11111175', 177) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.641 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.643 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 179 where next_val=178 
+ {executed in 1 msec}
+2020-04-03 14:19:29.646 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (76, '张三76', '11111176', 178) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.651 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.652 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 180 where next_val=179 
+ {executed in 0 msec}
+2020-04-03 14:19:29.656 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (77, '张三77', '11111177', 179) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.661 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.663 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 181 where next_val=180 
+ {executed in 1 msec}
+2020-04-03 14:19:29.665 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (78, '张三78', '11111178', 180) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.669 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.671 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 182 where next_val=181 
+ {executed in 1 msec}
+2020-04-03 14:19:29.674 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (79, '张三79', '11111179', 181) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.679 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.680 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 183 where next_val=182 
+ {executed in 0 msec}
+2020-04-03 14:19:29.684 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (80, '张三80', '11111180', 182) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.689 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.690 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 184 where next_val=183 
+ {executed in 0 msec}
+2020-04-03 14:19:29.695 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (81, '张三81', '11111181', 183) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.699 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.700 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 185 where next_val=184 
+ {executed in 0 msec}
+2020-04-03 14:19:29.704 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (82, '张三82', '11111182', 184) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.709 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.710 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 186 where next_val=185 
+ {executed in 0 msec}
+2020-04-03 14:19:29.713 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (83, '张三83', '11111183', 185) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.717 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.719 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 187 where next_val=186 
+ {executed in 1 msec}
+2020-04-03 14:19:29.722 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (84, '张三84', '11111184', 186) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.727 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.729 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 188 where next_val=187 
+ {executed in 0 msec}
+2020-04-03 14:19:29.733 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (85, '张三85', '11111185', 187) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.737 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.739 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 189 where next_val=188 
+ {executed in 0 msec}
+2020-04-03 14:19:29.742 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (86, '张三86', '11111186', 188) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.747 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.749 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 190 where next_val=189 
+ {executed in 1 msec}
+2020-04-03 14:19:29.754 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (87, '张三87', '11111187', 189) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.759 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.761 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 191 where next_val=190 
+ {executed in 0 msec}
+2020-04-03 14:19:29.764 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (88, '张三88', '11111188', 190) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.768 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.770 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 192 where next_val=191 
+ {executed in 1 msec}
+2020-04-03 14:19:29.774 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (89, '张三89', '11111189', 191) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.778 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.780 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 193 where next_val=192 
+ {executed in 0 msec}
+2020-04-03 14:19:29.784 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (90, '张三90', '11111190', 192) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.788 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.790 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 194 where next_val=193 
+ {executed in 1 msec}
+2020-04-03 14:19:29.794 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (91, '张三91', '11111191', 193) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.799 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.800 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 195 where next_val=194 
+ {executed in 0 msec}
+2020-04-03 14:19:29.804 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (92, '张三92', '11111192', 194) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.808 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.810 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 196 where next_val=195 
+ {executed in 0 msec}
+2020-04-03 14:19:29.813 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (93, '张三93', '11111193', 195) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.817 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.819 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 197 where next_val=196 
+ {executed in 1 msec}
+2020-04-03 14:19:29.822 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (94, '张三94', '11111194', 196) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.829 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.830 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 198 where next_val=197 
+ {executed in 0 msec}
+2020-04-03 14:19:29.834 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (95, '张三95', '11111195', 197) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.838 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.839 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 199 where next_val=198 
+ {executed in 0 msec}
+2020-04-03 14:19:29.843 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (96, '张三96', '11111196', 198) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.847 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.849 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 200 where next_val=199 
+ {executed in 1 msec}
+2020-04-03 14:19:29.852 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (97, '张三97', '11111197', 199) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.856 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.857 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 201 where next_val=200 
+ {executed in 0 msec}
+2020-04-03 14:19:29.861 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (98, '张三98', '11111198', 200) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.865 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.867 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 202 where next_val=201 
+ {executed in 0 msec}
+2020-04-03 14:19:29.871 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (99, '张三99', '11111199', 201) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.876 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.878 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 203 where next_val=202 
+ {executed in 1 msec}
+2020-04-03 14:19:29.881 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (100, '张三100', '111111100', 202) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.885 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.886 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 204 where next_val=203 
+ {executed in 0 msec}
+2020-04-03 14:19:29.889 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (101, '张三101', '111111101', 203) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.894 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.895 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 205 where next_val=204 
+ {executed in 0 msec}
+2020-04-03 14:19:29.898 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (102, '张三102', '111111102', 204) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.903 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.904 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 206 where next_val=205 
+ {executed in 0 msec}
+2020-04-03 14:19:29.907 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (103, '张三103', '111111103', 205) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.911 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.912 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 207 where next_val=206 
+ {executed in 0 msec}
+2020-04-03 14:19:29.915 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (104, '张三104', '111111104', 206) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.920 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.921 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 208 where next_val=207 
+ {executed in 0 msec}
+2020-04-03 14:19:29.923 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (105, '张三105', '111111105', 207) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.928 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.929 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 209 where next_val=208 
+ {executed in 0 msec}
+2020-04-03 14:19:29.933 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (106, '张三106', '111111106', 208) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.937 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.938 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 210 where next_val=209 
+ {executed in 0 msec}
+2020-04-03 14:19:29.945 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (107, '张三107', '111111107', 209) 
+ {executed in 5 msec}
+2020-04-03 14:19:29.949 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.950 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 211 where next_val=210 
+ {executed in 0 msec}
+2020-04-03 14:19:29.953 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (108, '张三108', '111111108', 210) 
+ {executed in 2 msec}
+2020-04-03 14:19:29.957 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.959 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 212 where next_val=211 
+ {executed in 1 msec}
+2020-04-03 14:19:29.962 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (109, '张三109', '111111109', 211) 
+ {executed in 0 msec}
+2020-04-03 14:19:29.967 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:29.969 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 213 where next_val=212 
+ {executed in 0 msec}
+2020-04-03 14:19:29.972 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (110, '张三110', '111111110', 212) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.978 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.980 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 214 where next_val=213 
+ {executed in 0 msec}
+2020-04-03 14:19:29.983 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (111, '张三111', '111111111', 213) 
+ {executed in 1 msec}
+2020-04-03 14:19:29.988 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:29.990 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 215 where next_val=214 
+ {executed in 0 msec}
+2020-04-03 14:19:29.996 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (112, '张三112', '111111112', 214) 
+ {executed in 2 msec}
+2020-04-03 14:19:30.001 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.003 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 216 where next_val=215 
+ {executed in 1 msec}
+2020-04-03 14:19:30.005 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (113, '张三113', '111111113', 215) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.013 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.015 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 217 where next_val=216 
+ {executed in 1 msec}
+2020-04-03 14:19:30.018 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (114, '张三114', '111111114', 216) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.023 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.026 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 218 where next_val=217 
+ {executed in 2 msec}
+2020-04-03 14:19:30.029 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (115, '张三115', '111111115', 217) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.033 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.035 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 219 where next_val=218 
+ {executed in 1 msec}
+2020-04-03 14:19:30.038 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (116, '张三116', '111111116', 218) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.043 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.044 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 220 where next_val=219 
+ {executed in 0 msec}
+2020-04-03 14:19:30.047 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (117, '张三117', '111111117', 219) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.052 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.054 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 221 where next_val=220 
+ {executed in 1 msec}
+2020-04-03 14:19:30.056 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (118, '张三118', '111111118', 220) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.061 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.062 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 222 where next_val=221 
+ {executed in 0 msec}
+2020-04-03 14:19:30.065 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (119, '张三119', '111111119', 221) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.069 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.070 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 223 where next_val=222 
+ {executed in 0 msec}
+2020-04-03 14:19:30.073 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (120, '张三120', '111111120', 222) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.078 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.079 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 224 where next_val=223 
+ {executed in 0 msec}
+2020-04-03 14:19:30.081 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (121, '张三121', '111111121', 223) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.085 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.087 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 225 where next_val=224 
+ {executed in 1 msec}
+2020-04-03 14:19:30.090 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (122, '张三122', '111111122', 224) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.095 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.096 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 226 where next_val=225 
+ {executed in 0 msec}
+2020-04-03 14:19:30.099 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (123, '张三123', '111111123', 225) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.103 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.104 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 227 where next_val=226 
+ {executed in 0 msec}
+2020-04-03 14:19:30.107 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (124, '张三124', '111111124', 226) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.111 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.112 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 228 where next_val=227 
+ {executed in 0 msec}
+2020-04-03 14:19:30.115 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (125, '张三125', '111111125', 227) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.122 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.124 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 229 where next_val=228 
+ {executed in 1 msec}
+2020-04-03 14:19:30.128 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (126, '张三126', '111111126', 228) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.133 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.136 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 230 where next_val=229 
+ {executed in 0 msec}
+2020-04-03 14:19:30.141 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (127, '张三127', '111111127', 229) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.146 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.148 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 231 where next_val=230 
+ {executed in 0 msec}
+2020-04-03 14:19:30.151 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (128, '张三128', '111111128', 230) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.156 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.157 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 232 where next_val=231 
+ {executed in 0 msec}
+2020-04-03 14:19:30.160 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (129, '张三129', '111111129', 231) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.165 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.167 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 233 where next_val=232 
+ {executed in 0 msec}
+2020-04-03 14:19:30.170 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (130, '张三130', '111111130', 232) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.174 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.177 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 234 where next_val=233 
+ {executed in 1 msec}
+2020-04-03 14:19:30.180 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (131, '张三131', '111111131', 233) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.184 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.185 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 235 where next_val=234 
+ {executed in 0 msec}
+2020-04-03 14:19:30.188 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (132, '张三132', '111111132', 234) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.192 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.195 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 236 where next_val=235 
+ {executed in 1 msec}
+2020-04-03 14:19:30.198 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (133, '张三133', '111111133', 235) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.202 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.203 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 237 where next_val=236 
+ {executed in 0 msec}
+2020-04-03 14:19:30.205 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (134, '张三134', '111111134', 236) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.209 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.210 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 238 where next_val=237 
+ {executed in 0 msec}
+2020-04-03 14:19:30.212 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (135, '张三135', '111111135', 237) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.216 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.217 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 239 where next_val=238 
+ {executed in 0 msec}
+2020-04-03 14:19:30.219 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (136, '张三136', '111111136', 238) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.222 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.223 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 240 where next_val=239 
+ {executed in 0 msec}
+2020-04-03 14:19:30.225 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (137, '张三137', '111111137', 239) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.228 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.229 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 241 where next_val=240 
+ {executed in 0 msec}
+2020-04-03 14:19:30.232 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (138, '张三138', '111111138', 240) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.236 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.237 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 242 where next_val=241 
+ {executed in 1 msec}
+2020-04-03 14:19:30.238 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (139, '张三139', '111111139', 241) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.242 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.243 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 243 where next_val=242 
+ {executed in 0 msec}
+2020-04-03 14:19:30.246 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (140, '张三140', '111111140', 242) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.250 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.251 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 244 where next_val=243 
+ {executed in 0 msec}
+2020-04-03 14:19:30.253 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (141, '张三141', '111111141', 243) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.256 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.257 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 245 where next_val=244 
+ {executed in 0 msec}
+2020-04-03 14:19:30.260 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (142, '张三142', '111111142', 244) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.264 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.266 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 246 where next_val=245 
+ {executed in 1 msec}
+2020-04-03 14:19:30.268 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (143, '张三143', '111111143', 245) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.271 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.273 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 247 where next_val=246 
+ {executed in 1 msec}
+2020-04-03 14:19:30.276 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (144, '张三144', '111111144', 246) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.280 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.282 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 248 where next_val=247 
+ {executed in 1 msec}
+2020-04-03 14:19:30.284 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (145, '张三145', '111111145', 247) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.288 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.289 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 249 where next_val=248 
+ {executed in 0 msec}
+2020-04-03 14:19:30.292 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (146, '张三146', '111111146', 248) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.296 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.298 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 250 where next_val=249 
+ {executed in 1 msec}
+2020-04-03 14:19:30.301 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (147, '张三147', '111111147', 249) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.305 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.306 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 251 where next_val=250 
+ {executed in 0 msec}
+2020-04-03 14:19:30.309 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (148, '张三148', '111111148', 250) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.312 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.313 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 252 where next_val=251 
+ {executed in 0 msec}
+2020-04-03 14:19:30.314 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (149, '张三149', '111111149', 251) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.318 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.319 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 253 where next_val=252 
+ {executed in 0 msec}
+2020-04-03 14:19:30.321 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (150, '张三150', '111111150', 252) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.324 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.326 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 254 where next_val=253 
+ {executed in 1 msec}
+2020-04-03 14:19:30.328 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (151, '张三151', '111111151', 253) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.332 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.333 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 255 where next_val=254 
+ {executed in 0 msec}
+2020-04-03 14:19:30.336 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (152, '张三152', '111111152', 254) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.340 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.341 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 256 where next_val=255 
+ {executed in 0 msec}
+2020-04-03 14:19:30.343 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (153, '张三153', '111111153', 255) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.347 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.348 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 257 where next_val=256 
+ {executed in 0 msec}
+2020-04-03 14:19:30.350 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (154, '张三154', '111111154', 256) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.354 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.355 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 258 where next_val=257 
+ {executed in 0 msec}
+2020-04-03 14:19:30.357 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (155, '张三155', '111111155', 257) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.361 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.363 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 259 where next_val=258 
+ {executed in 0 msec}
+2020-04-03 14:19:30.365 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (156, '张三156', '111111156', 258) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.369 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.370 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 260 where next_val=259 
+ {executed in 0 msec}
+2020-04-03 14:19:30.372 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (157, '张三157', '111111157', 259) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.376 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.378 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 261 where next_val=260 
+ {executed in 1 msec}
+2020-04-03 14:19:30.380 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (158, '张三158', '111111158', 260) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.383 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.384 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 262 where next_val=261 
+ {executed in 0 msec}
+2020-04-03 14:19:30.386 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (159, '张三159', '111111159', 261) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.391 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.393 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 263 where next_val=262 
+ {executed in 0 msec}
+2020-04-03 14:19:30.396 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (160, '张三160', '111111160', 262) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.400 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.401 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 264 where next_val=263 
+ {executed in 0 msec}
+2020-04-03 14:19:30.404 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (161, '张三161', '111111161', 263) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.408 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.410 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 265 where next_val=264 
+ {executed in 0 msec}
+2020-04-03 14:19:30.413 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (162, '张三162', '111111162', 264) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.417 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.418 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 266 where next_val=265 
+ {executed in 0 msec}
+2020-04-03 14:19:30.421 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (163, '张三163', '111111163', 265) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.425 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.428 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 267 where next_val=266 
+ {executed in 1 msec}
+2020-04-03 14:19:30.430 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (164, '张三164', '111111164', 266) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.434 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.436 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 268 where next_val=267 
+ {executed in 1 msec}
+2020-04-03 14:19:30.439 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (165, '张三165', '111111165', 267) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.443 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.444 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 269 where next_val=268 
+ {executed in 0 msec}
+2020-04-03 14:19:30.447 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (166, '张三166', '111111166', 268) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.453 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.454 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 270 where next_val=269 
+ {executed in 0 msec}
+2020-04-03 14:19:30.457 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (167, '张三167', '111111167', 269) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.462 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.463 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 271 where next_val=270 
+ {executed in 0 msec}
+2020-04-03 14:19:30.466 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (168, '张三168', '111111168', 270) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.471 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.473 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 272 where next_val=271 
+ {executed in 1 msec}
+2020-04-03 14:19:30.476 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (169, '张三169', '111111169', 271) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.481 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.484 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 273 where next_val=272 
+ {executed in 1 msec}
+2020-04-03 14:19:30.488 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (170, '张三170', '111111170', 272) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.493 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.494 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 274 where next_val=273 
+ {executed in 0 msec}
+2020-04-03 14:19:30.496 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (171, '张三171', '111111171', 273) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.500 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.502 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 275 where next_val=274 
+ {executed in 1 msec}
+2020-04-03 14:19:30.504 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (172, '张三172', '111111172', 274) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.509 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.511 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 276 where next_val=275 
+ {executed in 1 msec}
+2020-04-03 14:19:30.514 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (173, '张三173', '111111173', 275) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.518 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.519 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 277 where next_val=276 
+ {executed in 0 msec}
+2020-04-03 14:19:30.522 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (174, '张三174', '111111174', 276) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.527 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.528 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 278 where next_val=277 
+ {executed in 0 msec}
+2020-04-03 14:19:30.530 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (175, '张三175', '111111175', 277) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.534 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.535 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 279 where next_val=278 
+ {executed in 1 msec}
+2020-04-03 14:19:30.537 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (176, '张三176', '111111176', 278) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.540 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.541 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 280 where next_val=279 
+ {executed in 0 msec}
+2020-04-03 14:19:30.543 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (177, '张三177', '111111177', 279) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.547 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.548 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 281 where next_val=280 
+ {executed in 0 msec}
+2020-04-03 14:19:30.550 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (178, '张三178', '111111178', 280) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.555 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.556 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 282 where next_val=281 
+ {executed in 0 msec}
+2020-04-03 14:19:30.559 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (179, '张三179', '111111179', 281) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.565 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.566 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 283 where next_val=282 
+ {executed in 0 msec}
+2020-04-03 14:19:30.569 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (180, '张三180', '111111180', 282) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.573 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.575 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 284 where next_val=283 
+ {executed in 1 msec}
+2020-04-03 14:19:30.578 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (181, '张三181', '111111181', 283) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.582 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.583 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 285 where next_val=284 
+ {executed in 0 msec}
+2020-04-03 14:19:30.585 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (182, '张三182', '111111182', 284) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.589 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.590 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 286 where next_val=285 
+ {executed in 0 msec}
+2020-04-03 14:19:30.592 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (183, '张三183', '111111183', 285) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.597 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.598 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 287 where next_val=286 
+ {executed in 0 msec}
+2020-04-03 14:19:30.600 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (184, '张三184', '111111184', 286) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.603 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.604 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 288 where next_val=287 
+ {executed in 0 msec}
+2020-04-03 14:19:30.607 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (185, '张三185', '111111185', 287) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.613 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.615 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 289 where next_val=288 
+ {executed in 1 msec}
+2020-04-03 14:19:30.617 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (186, '张三186', '111111186', 288) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.622 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.623 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 290 where next_val=289 
+ {executed in 0 msec}
+2020-04-03 14:19:30.625 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (187, '张三187', '111111187', 289) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.630 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.631 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 291 where next_val=290 
+ {executed in 1 msec}
+2020-04-03 14:19:30.632 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (188, '张三188', '111111188', 290) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.636 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.636 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 292 where next_val=291 
+ {executed in 0 msec}
+2020-04-03 14:19:30.638 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (189, '张三189', '111111189', 291) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.643 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.645 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 293 where next_val=292 
+ {executed in 1 msec}
+2020-04-03 14:19:30.648 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (190, '张三190', '111111190', 292) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.652 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.654 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 294 where next_val=293 
+ {executed in 0 msec}
+2020-04-03 14:19:30.658 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (191, '张三191', '111111191', 293) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.662 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.664 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 295 where next_val=294 
+ {executed in 1 msec}
+2020-04-03 14:19:30.666 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (192, '张三192', '111111192', 294) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.670 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.672 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 296 where next_val=295 
+ {executed in 1 msec}
+2020-04-03 14:19:30.675 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (193, '张三193', '111111193', 295) 
+ {executed in 1 msec}
+2020-04-03 14:19:30.679 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.680 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 297 where next_val=296 
+ {executed in 1 msec}
+2020-04-03 14:19:30.682 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (194, '张三194', '111111194', 296) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.686 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.687 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 298 where next_val=297 
+ {executed in 1 msec}
+2020-04-03 14:19:30.689 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (195, '张三195', '111111195', 297) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.693 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.694 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 299 where next_val=298 
+ {executed in 0 msec}
+2020-04-03 14:19:30.696 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (196, '张三196', '111111196', 298) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.700 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-03 14:19:30.701 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 300 where next_val=299 
+ {executed in 0 msec}
+2020-04-03 14:19:30.704 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (197, '张三197', '111111197', 299) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.708 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.710 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 301 where next_val=300 
+ {executed in 1 msec}
+2020-04-03 14:19:30.712 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (198, '张三198', '111111198', 300) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.716 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-03 14:19:30.717 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 302 where next_val=301 
+ {executed in 0 msec}
+2020-04-03 14:19:30.719 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (199, '张三199', '111111199', 301) 
+ {executed in 0 msec}
+2020-04-03 14:19:30.752 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 14:19:30.755 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 14:19:30.767 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-03 14:20:11.348 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10, 10 
+ {executed in 1 msec}
+2020-04-03 14:20:11.354 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-03 14:20:17.303 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%张三%%' escape '\' order by user0_.id 
+asc limit 10, 10 
+ {executed in 1 msec}
+2020-04-03 14:20:17.307 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%张三%%' escape 
+'\' 
+ {executed in 1 msec}
+2020-04-03 14:20:18.866 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%张三%%' escape '\' order by user0_.id 
+asc limit 20, 10 
+ {executed in 1 msec}
+2020-04-03 14:20:18.868 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%张三%%' escape 
+'\' 
+ {executed in 0 msec}
+2020-04-03 14:20:19.949 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%张三%%' escape '\' order by user0_.id 
+asc limit 30, 10 
+ {executed in 0 msec}
+2020-04-03 14:20:19.953 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%张三%%' escape 
+'\' 
+ {executed in 0 msec}
+2020-04-03 14:20:20.515 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%张三%%' escape '\' order by user0_.id 
+asc limit 200, 10 
+ {executed in 1 msec}
+2020-04-03 14:20:20.517 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%张三%%' escape 
+'\' 
+ {executed in 0 msec}
+2020-04-03 14:20:23.420 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%张三%%' escape '\' order by user0_.id 
+asc limit 190, 10 
+ {executed in 0 msec}
+2020-04-03 14:20:23.423 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%张三%%' escape 
+'\' 
+ {executed in 0 msec}
+2020-04-03 14:20:38.387 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%张三%%' escape '\' order by user0_.id 
+asc limit 10, 10 
+ {executed in 0 msec}
+2020-04-03 14:20:38.392 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%张三%%' escape 
+'\' 
+ {executed in 1 msec}
+2020-04-03 14:20:54.259 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%张三%%' escape '\' order by user0_.id 
+asc limit 20, 10 
+ {executed in 1 msec}
+2020-04-03 14:20:54.262 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%张三%%' escape 
+'\' 
+ {executed in 0 msec}
+2020-04-03 14:21:38.753 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 2804 (D:\Documents\eclipse-workspace\springboot-data-jpa\target\classes started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 14:21:38.756 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 14:21:38.800 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-03 14:21:38.801 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 14:21:38.801 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 14:21:39.405 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 14:21:39.464 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 51ms. Found 1 JPA repository interfaces.
+2020-04-03 14:21:39.990 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-03 14:21:39.997 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-03 14:21:39.998 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-03 14:21:39.999 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 14:21:40.093 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-03 14:21:40.094 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1292 ms
+2020-04-03 14:21:40.154 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 14:21:40.314 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 14:21:40.380 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 14:21:40.431 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 14:21:40.523 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 14:21:40.770 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 14:21:41.241 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 14:21:41.247 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 14:21:41.641 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 14:21:41.890 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-03 14:21:41.920 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 14:21:41.922 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 3.613 seconds (JVM running for 4.86)
+2020-04-03 14:21:50.828 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 14:21:50.828 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-03 14:21:50.834 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 6 ms
+2020-04-03 14:21:51.584 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-03 14:21:51.605 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-03 14:21:58.245 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%张三%%' escape '\' order by user0_.id 
+asc limit 10 
+ {executed in 1 msec}
+2020-04-03 14:21:58.249 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%张三%%' escape 
+'\' 
+ {executed in 0 msec}
+2020-04-03 15:11:27.186 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 4744 (D:\Documents\eclipse-workspace\springboot-data-jpa\target\classes started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 15:11:27.191 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 15:11:27.246 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-03 15:11:27.246 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 15:11:27.247 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 15:11:28.063 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 15:11:28.124 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 52ms. Found 1 JPA repository interfaces.
+2020-04-03 15:11:28.916 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-03 15:11:28.926 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-03 15:11:28.927 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-03 15:11:28.927 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 15:11:29.089 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-03 15:11:29.092 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1845 ms
+2020-04-03 15:11:29.245 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 15:11:29.526 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 15:11:29.657 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 15:11:29.746 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 15:11:29.923 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 15:11:30.282 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 15:11:31.104 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 15:11:31.111 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 15:11:31.144 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-03 15:11:31.665 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 15:11:31.954 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-03 15:11:31.987 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 15:11:31.990 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 5.423 seconds (JVM running for 6.564)
+2020-04-03 15:12:02.946 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 15:12:02.947 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-03 15:12:02.956 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 9 ms
+2020-04-03 15:30:39.220 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 3940 (D:\Documents\eclipse-workspace\springboot-data-jpa\target\classes started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 15:30:39.223 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 15:30:39.270 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-03 15:30:39.270 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 15:30:39.270 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 15:30:39.851 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 15:30:39.900 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 41ms. Found 1 JPA repository interfaces.
+2020-04-03 15:30:40.399 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-03 15:30:40.406 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-03 15:30:40.407 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-03 15:30:40.407 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 15:30:40.497 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-03 15:30:40.498 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1227 ms
+2020-04-03 15:30:40.553 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 15:30:40.711 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 15:30:40.780 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 15:30:40.835 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 15:30:40.929 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 15:30:41.168 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 15:30:41.643 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 15:30:41.651 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 15:30:41.675 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-03 15:30:42.036 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 15:30:42.252 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-03 15:30:42.270 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 15:30:42.272 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 3.49 seconds (JVM running for 4.615)
+2020-04-03 15:31:11.161 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 15:31:11.161 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-03 15:31:11.167 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 6 ms
+2020-04-03 15:32:10.902 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 8064 (D:\Documents\eclipse-workspace\springboot-data-jpa\target\classes started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 15:32:10.905 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 15:32:10.955 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-03 15:32:10.956 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 15:32:10.956 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 15:32:11.626 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 15:32:11.679 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 44ms. Found 1 JPA repository interfaces.
+2020-04-03 15:32:12.213 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-03 15:32:12.221 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-03 15:32:12.222 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-03 15:32:12.222 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 15:32:12.331 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-03 15:32:12.331 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1375 ms
+2020-04-03 15:32:12.398 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 15:32:12.566 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 15:32:12.635 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 15:32:12.688 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 15:32:12.782 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 15:32:13.014 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 15:32:13.520 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 15:32:13.527 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 15:32:13.554 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-03 15:32:13.934 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 15:32:14.153 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-03 15:32:14.172 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 15:32:14.174 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 3.815 seconds (JVM running for 5.017)
+2020-04-03 15:32:19.255 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 15:32:19.255 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-03 15:32:19.261 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 5 ms
+2020-04-03 15:33:43.455 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 12624 (D:\Documents\eclipse-workspace\springboot-data-jpa\target\classes started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 15:33:43.458 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 15:33:43.507 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-03 15:33:43.508 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 15:33:43.508 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 15:33:44.199 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 15:33:44.264 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+2020-04-03 15:33:44.804 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-03 15:33:44.811 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-03 15:33:44.812 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-03 15:33:44.812 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 15:33:44.915 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-03 15:33:44.915 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1407 ms
+2020-04-03 15:33:44.977 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 15:33:45.145 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 15:33:45.213 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 15:33:45.267 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 15:33:45.360 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 15:33:45.596 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 15:33:46.066 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 15:33:46.073 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 15:33:46.099 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-03 15:33:46.461 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 15:33:46.673 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-03 15:33:46.694 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 15:33:46.696 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 3.729 seconds (JVM running for 4.825)
+2020-04-03 15:33:50.327 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 15:33:50.327 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-03 15:33:50.332 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 5 ms
+2020-04-03 15:33:51.178 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-03 15:33:51.201 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-03 15:33:57.211 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-03 15:33:57.219 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-03 15:37:39.042 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-03 15:37:39.048 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-03 17:08:35.225 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 1 
+ {executed in 16 msec}
+2020-04-03 17:08:35.242 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 4 msec}
+2020-04-03 17:36:01.857 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 13304 (D:\Documents\eclipse-workspace\springboot-data-jpa\target\classes started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 17:36:01.867 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 17:36:01.993 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-03 17:36:01.995 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 17:36:01.998 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 17:36:03.536 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 17:36:03.650 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 95ms. Found 1 JPA repository interfaces.
+2020-04-03 17:36:04.784 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-03 17:36:04.798 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-03 17:36:04.799 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-03 17:36:04.799 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 17:36:04.978 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-03 17:36:04.979 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2981 ms
+2020-04-03 17:36:05.152 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 17:36:05.438 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 17:36:05.599 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 17:36:05.722 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 17:36:05.996 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 17:36:06.448 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 17:36:07.705 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 17:36:07.717 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 17:36:07.768 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-03 17:36:08.555 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 17:36:08.934 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-03 17:36:08.969 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 17:36:08.972 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 8.071 seconds (JVM running for 10.917)
+2020-04-03 17:36:37.427 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 17:36:37.427 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-03 17:36:37.437 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 10 ms
+2020-04-03 17:40:16.630 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 9628 (D:\Documents\eclipse-workspace\springboot-data-jpa\target\classes started by Jamin in D:\Documents\eclipse-workspace\springboot-data-jpa)
+2020-04-03 17:40:16.636 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-03 17:40:16.699 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-03 17:40:16.700 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-03 17:40:16.701 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-03 17:40:17.570 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-03 17:40:17.643 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2020-04-03 17:40:18.294 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-03 17:40:18.304 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-03 17:40:18.304 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-03 17:40:18.304 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 17:40:18.422 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-03 17:40:18.422 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1720 ms
+2020-04-03 17:40:18.493 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-03 17:40:18.732 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-03 17:40:18.831 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-03 17:40:18.907 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-03 17:40:19.058 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-03 17:40:19.359 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-03 17:40:19.949 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-03 17:40:19.957 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-03 17:40:19.993 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-03 17:40:20.557 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 17:40:20.808 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-03 17:40:20.831 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-03 17:40:20.833 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.791 seconds (JVM running for 6.142)
+2020-04-03 17:40:25.335 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 17:40:25.336 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-03 17:40:25.350 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 13 ms

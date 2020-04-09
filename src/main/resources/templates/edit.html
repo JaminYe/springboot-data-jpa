@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+  Created by IntelliJ IDEA.
+  User: Jamin
+  Date: 2020/4/9
+  Time: 9:11
+  Desc: 
+  -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:insert="header::header('修改')">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form class="layui-form" >
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">姓名</label>
+        <div class="layui-input-block">
+            <input type="text" name="title"  lay-verify="required|name" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" >年龄</label>
+        <div class="layui-input-block">
+            <input type="text" name="age"  id="age" lay-verify="required|age" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">手机号</label>
+        <div class="layui-input-block">
+            <input type="text" name="phoneNumber"  id="phoneNumber" lay-verify="phoneNumber" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">性别</label>
+        <div class="layui-input-block">
+            <input type="radio" name="sex"  checked="checked" value="0" title="男"/>
+            <input type="radio" name="sex" value="1" title="女"/>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">爱好</label>
+        <div class="layui-input-block">
+            <select name="hobby" id="hobby">
+                <option value=""  selected="">爱好</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">测试</label>
+        <div class="layui-input-block">
+            <input class="layui-input" type="hidden" name="testId" id="testId">
+            <input readonly="readonly" class="layui-input" type="text" name="testName" id="testName">
+        </div>
+    </div>
+
+    <button type="button" class="layui-btn" id="sumbitBtn" lay-submit lay-filter="submitFilter"></button>
+</form>
+</body>
+<script th:src="@{/js/edit.js}"></script>
+
+
+</html>

@@ -1,0 +1,775 @@
+2020-04-08 08:37:22.047 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 10872 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-08 08:37:22.053 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-08 08:37:22.121 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-08 08:37:22.121 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-08 08:37:22.122 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-08 08:37:22.869 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-08 08:37:22.932 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 53ms. Found 1 JPA repository interfaces.
+2020-04-08 08:37:23.497 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-08 08:37:23.506 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-08 08:37:23.507 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-08 08:37:23.507 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 08:37:23.607 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-08 08:37:23.607 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1485 ms
+2020-04-08 08:37:23.674 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-08 08:37:23.870 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-08 08:37:23.961 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-08 08:37:24.031 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-08 08:37:24.165 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-08 08:37:24.470 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-08 08:37:25.165 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-08 08:37:25.172 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-08 08:37:25.200 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-08 08:37:25.615 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 08:37:25.845 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-08 08:37:25.867 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-08 08:37:25.869 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.329 seconds (JVM running for 5.605)
+2020-04-08 08:39:51.770 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 08:39:51.771 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-08 08:39:51.783 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 12 ms
+2020-04-08 08:48:34.183 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 4 msec}
+2020-04-08 08:48:34.215 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 2 msec}
+2020-04-08 09:06:38.700 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 6092 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-08 09:06:38.704 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-08 09:06:38.760 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-08 09:06:38.761 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-08 09:06:38.761 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-08 09:06:39.629 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-08 09:06:39.687 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 50ms. Found 1 JPA repository interfaces.
+2020-04-08 09:06:40.244 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-08 09:06:40.252 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-08 09:06:40.253 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-08 09:06:40.253 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 09:06:40.356 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-08 09:06:40.356 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1595 ms
+2020-04-08 09:06:40.417 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-08 09:06:40.596 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-08 09:06:40.668 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-08 09:06:40.733 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-08 09:06:40.828 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-08 09:06:41.074 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-08 09:06:41.608 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-08 09:06:41.615 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-08 09:06:41.640 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-08 09:06:42.046 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 09:06:42.251 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-08 09:06:42.269 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-08 09:06:42.272 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.154 seconds (JVM running for 5.43)
+2020-04-08 09:07:07.679 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 09:07:07.679 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-08 09:07:07.688 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 8 ms
+2020-04-08 09:07:08.749 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 09:07:08.774 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 09:08:54.419 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 09:08:54.427 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 09:09:56.781 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 09:09:56.785 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 09:16:37.679 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 09:16:37.685 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 09:20:37.292 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 09:20:37.297 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 09:23:16.741 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 09:23:16.750 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 09:23:42.213 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 09:23:42.217 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 09:24:12.165 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 09:24:12.169 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 09:24:30.195 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 09:24:30.199 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 09:24:40.344 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 09:24:40.348 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 09:25:11.615 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 09:25:11.621 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 10:38:09.757 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 1212 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-08 10:38:09.760 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-08 10:38:09.803 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-08 10:38:09.803 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-08 10:38:09.803 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-08 10:38:10.576 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-08 10:38:10.641 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 55ms. Found 1 JPA repository interfaces.
+2020-04-08 10:38:12.439 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-08 10:38:12.458 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-08 10:38:12.460 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-08 10:38:12.461 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 10:38:12.710 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-08 10:38:12.711 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2908 ms
+2020-04-08 10:38:12.925 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-08 10:38:13.292 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-08 10:38:13.482 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-08 10:38:13.597 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-08 10:38:13.928 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-08 10:38:14.449 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-08 10:38:15.517 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-08 10:38:15.526 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-08 10:38:15.564 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-08 10:38:16.274 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 10:38:16.548 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-08 10:38:16.585 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-08 10:38:16.590 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 7.227 seconds (JVM running for 9.101)
+2020-04-08 10:38:42.725 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 10:38:42.726 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-08 10:38:42.746 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 19 ms
+2020-04-08 10:38:43.360 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 9 msec}
+2020-04-08 10:38:43.385 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 10:41:57.698 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 10:41:57.705 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 2 msec}
+2020-04-08 10:52:21.149 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 10:52:21.158 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 10:56:17.519 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 10:56:17.524 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 10:57:08.349 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 10:57:08.353 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 10:58:00.488 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 10:58:00.490 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 10:59:00.026 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 10:59:00.035 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 10:59:15.958 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 10:59:15.961 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:02:37.416 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 11:02:37.424 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:05:14.933 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 11:05:14.938 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:05:22.926 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 5 msec}
+2020-04-08 11:05:22.938 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 303 where next_val=302 
+ {executed in 9 msec}
+2020-04-08 11:05:22.974 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 302) 
+ {executed in 9 msec}
+2020-04-08 11:07:30.687 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 11:07:30.692 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:07:40.544 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 11:07:40.548 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 304 where next_val=303 
+ {executed in 2 msec}
+2020-04-08 11:07:40.552 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 303) 
+ {executed in 1 msec}
+2020-04-08 11:08:48.803 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 11:08:48.808 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 2 msec}
+2020-04-08 11:08:57.797 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 11:08:57.798 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 305 where next_val=304 
+ {executed in 0 msec}
+2020-04-08 11:08:57.802 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 304) 
+ {executed in 1 msec}
+2020-04-08 11:25:15.594 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 11:25:15.605 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:25:24.652 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 11:25:24.655 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 306 where next_val=305 
+ {executed in 0 msec}
+2020-04-08 11:25:24.661 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 305) 
+ {executed in 1 msec}
+2020-04-08 11:27:00.838 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 11:27:00.843 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:27:07.928 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 11:27:07.931 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 307 where next_val=306 
+ {executed in 0 msec}
+2020-04-08 11:27:07.933 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 306) 
+ {executed in 1 msec}
+2020-04-08 11:28:03.429 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 11:28:03.434 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 11:28:10.845 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 11:28:10.847 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 308 where next_val=307 
+ {executed in 1 msec}
+2020-04-08 11:28:10.849 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 307) 
+ {executed in 0 msec}
+2020-04-08 11:28:19.476 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 11:28:19.479 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:28:21.673 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 11:28:21.677 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:28:28.816 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 11:28:28.820 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 309 where next_val=308 
+ {executed in 2 msec}
+2020-04-08 11:28:28.826 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 308) 
+ {executed in 1 msec}
+2020-04-08 11:28:53.353 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 11:28:53.358 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:29:00.074 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 11:29:00.075 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 310 where next_val=309 
+ {executed in 0 msec}
+2020-04-08 11:29:00.081 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 309) 
+ {executed in 1 msec}
+2020-04-08 11:29:39.431 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 11:29:39.433 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 11:29:40.835 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 11:29:40.838 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 11:29:53.760 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 11:29:53.763 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 311 where next_val=310 
+ {executed in 2 msec}
+2020-04-08 11:29:53.765 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 310) 
+ {executed in 0 msec}
+2020-04-08 11:30:38.133 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 11:30:38.134 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-08 11:30:38.146 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-08 11:30:59.070 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 10936 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-08 11:30:59.073 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-08 11:30:59.112 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-08 11:30:59.112 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-08 11:30:59.113 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-08 11:30:59.741 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-08 11:30:59.792 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 43ms. Found 1 JPA repository interfaces.
+2020-04-08 11:31:00.332 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-08 11:31:00.340 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-08 11:31:00.341 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-08 11:31:00.342 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 11:31:00.452 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-08 11:31:00.452 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1339 ms
+2020-04-08 11:31:00.514 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-08 11:31:00.679 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-08 11:31:00.750 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-08 11:31:00.802 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-08 11:31:00.919 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-08 11:31:01.166 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-08 11:31:01.738 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-08 11:31:01.744 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-08 11:31:01.768 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-08 11:31:02.260 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 11:31:02.515 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-08 11:31:02.553 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-08 11:31:02.556 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 3.93 seconds (JVM running for 6.046)
+2020-04-08 11:31:16.814 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 11:31:16.814 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-08 11:31:16.820 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 6 ms
+2020-04-08 11:31:17.777 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 11:31:17.805 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 11:31:24.399 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 11:31:24.401 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 312 where next_val=311 
+ {executed in 0 msec}
+2020-04-08 11:31:24.420 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 311) 
+ {executed in 1 msec}
+2020-04-08 11:43:12.277 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 11:43:12.286 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 2 msec}
+2020-04-08 11:43:26.601 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 2 msec}
+2020-04-08 11:43:26.604 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 313 where next_val=312 
+ {executed in 1 msec}
+2020-04-08 11:43:26.607 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 312) 
+ {executed in 1 msec}
+2020-04-08 12:02:12.818 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:02:12.826 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:02:19.940 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 12:02:19.952 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 314 where next_val=313 
+ {executed in 11 msec}
+2020-04-08 12:02:19.955 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 313) 
+ {executed in 1 msec}
+2020-04-08 12:05:12.959 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 12:05:12.960 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 315 where next_val=314 
+ {executed in 0 msec}
+2020-04-08 12:05:12.964 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 314) 
+ {executed in 1 msec}
+2020-04-08 12:07:13.579 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:07:13.582 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 12:07:23.348 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:07:23.354 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:07:34.013 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%测试%%' escape '\' order by user0_.id 
+asc limit 10 
+ {executed in 5 msec}
+2020-04-08 12:07:34.018 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%测试%%' escape 
+'\' 
+ {executed in 1 msec}
+2020-04-08 12:07:37.012 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%19%%' escape '\' order by user0_.id 
+asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:07:37.017 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%19%%' escape 
+'\' 
+ {executed in 1 msec}
+2020-04-08 12:07:47.237 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ where user0_.name like '%%测试%%' escape '\' order by user0_.id 
+asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:07:47.240 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ where user0_.name like '%%测试%%' escape 
+'\' 
+ {executed in 1 msec}
+2020-04-08 12:08:05.768 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 12:08:05.770 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 316 where next_val=315 
+ {executed in 1 msec}
+2020-04-08 12:08:05.775 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 315) 
+ {executed in 1 msec}
+2020-04-08 12:11:41.772 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 12:11:41.775 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 317 where next_val=316 
+ {executed in 0 msec}
+2020-04-08 12:11:41.779 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 316) 
+ {executed in 2 msec}
+2020-04-08 12:12:50.146 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 4 msec}
+2020-04-08 12:12:50.156 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:12:59.773 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:12:59.777 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:13:04.613 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 12:13:04.619 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 318 where next_val=317 
+ {executed in 4 msec}
+2020-04-08 12:13:04.625 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 317) 
+ {executed in 2 msec}
+2020-04-08 12:13:20.504 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:13:20.511 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 2 msec}
+2020-04-08 12:13:32.565 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:13:32.569 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:13:39.999 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:13:40.002 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:13:43.780 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 12:13:43.781 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 319 where next_val=318 
+ {executed in 0 msec}
+2020-04-08 12:13:43.783 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 318) 
+ {executed in 1 msec}
+2020-04-08 12:14:25.678 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:14:25.681 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:14:32.616 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:14:32.621 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:14:38.232 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 12:14:38.236 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 320 where next_val=319 
+ {executed in 2 msec}
+2020-04-08 12:14:38.239 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 319) 
+ {executed in 1 msec}
+2020-04-08 12:15:14.583 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:15:14.590 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:15:23.066 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 12:15:23.067 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 321 where next_val=320 
+ {executed in 0 msec}
+2020-04-08 12:15:23.070 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 320) 
+ {executed in 1 msec}
+2020-04-08 12:18:20.479 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:18:20.482 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:18:27.347 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 12:18:27.350 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 322 where next_val=321 
+ {executed in 1 msec}
+2020-04-08 12:18:27.353 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 321) 
+ {executed in 1 msec}
+2020-04-08 12:19:29.560 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:19:29.563 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 12:19:35.407 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 12:19:35.410 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 323 where next_val=322 
+ {executed in 0 msec}
+2020-04-08 12:19:35.414 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 322) 
+ {executed in 1 msec}
+2020-04-08 12:20:20.786 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:20:20.792 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 2 msec}
+2020-04-08 12:20:26.526 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 2 msec}
+2020-04-08 12:20:26.528 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 324 where next_val=323 
+ {executed in 1 msec}
+2020-04-08 12:20:26.533 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 323) 
+ {executed in 2 msec}
+2020-04-08 12:20:44.739 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:20:44.742 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 12:21:28.033 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 12:21:28.038 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 12:21:34.367 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 12:21:34.371 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 325 where next_val=324 
+ {executed in 0 msec}
+2020-04-08 12:21:34.376 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 324) 
+ {executed in 2 msec}
+2020-04-08 12:21:37.183 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:21:37.187 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:21:37.998 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:21:38.001 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:21:48.761 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 12:21:48.764 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 12:22:08.526 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 12:22:08.532 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 12:22:19.786 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 12:22:19.790 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 326 where next_val=325 
+ {executed in 0 msec}
+2020-04-08 12:22:19.794 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (1, NULL, '13275867622', 325) 
+ {executed in 1 msec}
+2020-04-08 13:20:10.775 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 7 msec}
+2020-04-08 13:20:10.786 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 2 msec}
+2020-04-08 13:20:30.071 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 3 msec}
+2020-04-08 13:20:30.076 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 327 where next_val=326 
+ {executed in 2 msec}
+2020-04-08 13:20:30.080 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 326) 
+ {executed in 2 msec}
+2020-04-08 13:23:13.140 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 13:23:13.150 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 13:23:19.921 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 1 msec}
+2020-04-08 13:23:19.925 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 328 where next_val=327 
+ {executed in 0 msec}
+2020-04-08 13:23:19.930 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 327) 
+ {executed in 1 msec}
+2020-04-08 13:23:22.334 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 13:23:22.337 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 13:23:31.974 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 0 msec}
+2020-04-08 13:23:31.979 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 329 where next_val=328 
+ {executed in 1 msec}
+2020-04-08 13:23:31.985 INFO  jdbc.sqltiming Line:373 - insert into user (age, name, phone_number, id) values (11, NULL, '13275867622', 328) 
+ {executed in 1 msec}
+2020-04-08 13:23:33.715 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 13:23:33.719 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 13:32:31.391 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 13:32:31.397 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 13:37:15.048 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 13:37:15.051 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 13:40:43.834 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 13:40:43.841 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 13:42:17.720 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 13:42:17.722 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 13:43:28.312 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 5 msec}
+2020-04-08 13:43:28.322 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 13:43:29.962 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-08 13:43:29.965 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 13:43:31.489 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 13:43:31.490 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 13:44:37.351 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 15828 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-08 13:44:37.355 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-08 13:44:37.403 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-08 13:44:37.403 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-08 13:44:37.403 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-08 13:44:38.088 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-08 13:44:38.144 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 48ms. Found 1 JPA repository interfaces.
+2020-04-08 13:44:38.715 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-08 13:44:38.724 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-08 13:44:38.725 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-08 13:44:38.726 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 13:44:38.842 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-08 13:44:38.843 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1439 ms
+2020-04-08 13:44:38.951 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-08 13:44:39.140 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-08 13:44:39.235 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-08 13:44:39.310 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-08 13:44:39.458 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-08 13:44:39.756 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-08 13:44:40.434 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-08 13:44:40.441 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-08 13:44:40.471 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-08 13:44:40.976 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 13:44:41.273 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-08 13:44:41.296 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-08 13:44:41.299 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.344 seconds (JVM running for 6.566)
+2020-04-08 13:44:53.858 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 13:44:53.858 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-08 13:44:53.865 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 6 ms
+2020-04-08 13:44:54.864 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 13:44:54.896 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 14:55:28.641 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 5156 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-08 14:55:28.649 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-08 14:55:28.752 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-08 14:55:28.753 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-08 14:55:28.754 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-08 14:55:29.758 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-08 14:55:29.895 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 120ms. Found 1 JPA repository interfaces.
+2020-04-08 14:55:31.149 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-08 14:55:31.176 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-08 14:55:31.179 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-08 14:55:31.180 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 14:55:31.389 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-08 14:55:31.390 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 2636 ms
+2020-04-08 14:55:31.524 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-08 14:55:31.867 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-08 14:55:32.017 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-08 14:55:32.158 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-08 14:55:32.377 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-08 14:55:32.849 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-08 14:55:33.858 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-08 14:55:33.869 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-08 14:55:33.907 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-08 14:55:34.531 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 14:55:34.916 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-08 14:55:34.948 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-08 14:55:34.951 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 7.021 seconds (JVM running for 9.569)
+2020-04-08 14:57:10.769 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 14:57:10.769 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-08 14:57:10.779 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 9 ms
+2020-04-08 14:57:11.988 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 8 msec}
+2020-04-08 14:57:12.025 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 5 msec}
+2020-04-08 14:58:18.444 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 14:58:18.453 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 14:58:26.950 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.name as name3_0_0_, user0_.phone_number 
+as phone_nu4_0_0_ from user user0_ where user0_.id=2 
+ {executed in 10 msec}
+2020-04-08 14:58:27.002 INFO  jdbc.sqltiming Line:373 - delete from user where id=2 
+ {executed in 15 msec}
+2020-04-08 14:58:28.977 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.name as name3_0_, user0_.phone_number 
+as phone_nu4_0_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-08 14:58:28.981 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 15:39:06.128 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 9836 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-08 15:39:06.132 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-08 15:39:06.193 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-08 15:39:06.193 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-08 15:39:06.194 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-08 15:39:07.077 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-08 15:39:07.181 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 88ms. Found 1 JPA repository interfaces.
+2020-04-08 15:39:07.940 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-08 15:39:07.951 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-08 15:39:07.952 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-08 15:39:07.952 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 15:39:08.061 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-08 15:39:08.062 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1868 ms
+2020-04-08 15:39:08.135 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-08 15:39:08.392 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-08 15:39:08.472 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-08 15:39:08.545 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-08 15:39:08.694 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-08 15:39:08.993 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-08 15:39:09.827 INFO  jdbc.sqltiming Line:373 - alter table user add column hobby varchar(255) 
+ {executed in 189 msec}
+2020-04-08 15:39:09.975 INFO  jdbc.sqltiming Line:373 - alter table user add column sex integer not null 
+ {executed in 138 msec}
+2020-04-08 15:39:09.977 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-08 15:39:09.988 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-08 15:39:10.031 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-08 15:39:11.421 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 15:39:11.889 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-08 15:39:11.926 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-08 15:39:11.930 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 6.363 seconds (JVM running for 8.053)
+2020-04-08 15:42:59.481 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 15:42:59.482 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-08 15:42:59.490 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 8 ms
+2020-04-08 15:43:00.663 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.hobby as hobby3_0_, user0_.name as 
+name4_0_, user0_.phone_number as phone_nu5_0_, user0_.sex as sex6_0_ from user user0_ order 
+by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 15:43:00.698 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 0 msec}
+2020-04-08 15:43:02.524 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.hobby as hobby3_0_0_, user0_.name 
+as name4_0_0_, user0_.phone_number as phone_nu5_0_0_, user0_.sex as sex6_0_0_ from user user0_ 
+where user0_.id=3 
+ {executed in 0 msec}
+2020-04-08 15:43:11.044 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.hobby as hobby3_0_, user0_.name as 
+name4_0_, user0_.phone_number as phone_nu5_0_, user0_.sex as sex6_0_ from user user0_ order 
+by user0_.id asc limit 320, 10 
+ {executed in 0 msec}
+2020-04-08 15:43:12.620 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.hobby as hobby3_0_0_, user0_.name 
+as name4_0_0_, user0_.phone_number as phone_nu5_0_0_, user0_.sex as sex6_0_0_ from user user0_ 
+where user0_.id=328 
+ {executed in 0 msec}
+2020-04-08 15:43:41.246 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.hobby as hobby3_0_, user0_.name as 
+name4_0_, user0_.phone_number as phone_nu5_0_, user0_.sex as sex6_0_ from user user0_ order 
+by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-08 15:43:41.254 INFO  jdbc.sqltiming Line:373 - select count(user0_.id) as col_0_0_ from user user0_ 
+ {executed in 1 msec}
+2020-04-08 15:43:42.444 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.hobby as hobby3_0_0_, user0_.name 
+as name4_0_0_, user0_.phone_number as phone_nu5_0_0_, user0_.sex as sex6_0_0_ from user user0_ 
+where user0_.id=3 
+ {executed in 1 msec}
+2020-04-08 18:43:25.136 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_0_, user0_.age as age2_0_, user0_.hobby as hobby3_0_, user0_.name as 
+name4_0_, user0_.phone_number as phone_nu5_0_, user0_.sex as sex6_0_ from user user0_ order 
+by user0_.id asc limit 10 
+ {executed in 22 msec}

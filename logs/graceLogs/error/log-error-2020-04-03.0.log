@@ -1,0 +1,9 @@
+2020-04-03 14:07:02.793 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set
+2020-04-03 14:19:24.832 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set
+2020-04-03 14:21:40.312 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set
+2020-04-03 15:11:29.522 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set
+2020-04-03 15:30:40.709 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set
+2020-04-03 15:32:12.561 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set
+2020-04-03 15:33:45.143 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set
+2020-04-03 17:36:05.435 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set
+2020-04-03 17:40:18.729 ERROR com.alibaba.druid.pool.DruidDataSource Line:1070 - testWhileIdle is true, validationQuery not set

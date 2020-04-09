@@ -1,0 +1,626 @@
+2020-04-09 10:56:27.020 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 21220 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 10:56:27.025 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 10:56:27.075 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 10:56:27.076 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 10:56:27.076 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 10:56:27.968 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 10:56:28.045 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
+2020-04-09 10:56:28.807 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 10:56:28.819 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 10:56:28.820 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 10:56:28.820 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 10:56:28.968 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 10:56:28.969 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1892 ms
+2020-04-09 10:56:29.081 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 10:56:29.319 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 10:56:29.421 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 10:56:29.513 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 10:56:29.675 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 10:56:30.026 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 10:56:30.200 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-09 10:56:30.206 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-09 10:56:30.222 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-09 10:57:53.439 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 21672 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 10:57:53.444 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 10:57:53.496 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 10:57:53.497 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 10:57:53.497 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 10:57:54.314 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 10:57:54.404 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 75ms. Found 1 JPA repository interfaces.
+2020-04-09 10:57:55.031 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 10:57:55.040 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 10:57:55.041 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 10:57:55.041 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 10:57:55.149 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 10:57:55.150 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1652 ms
+2020-04-09 10:57:55.221 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 10:57:55.368 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 10:57:55.527 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 10:57:55.589 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 10:57:55.708 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 10:57:55.968 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 10:57:56.107 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-09 10:57:56.110 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-09 10:57:56.126 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-09 11:01:18.720 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 25260 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 11:01:18.726 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 11:01:18.788 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 11:01:18.789 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 11:01:18.789 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 11:01:19.512 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 11:01:19.577 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+2020-04-09 11:01:20.182 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 11:01:20.193 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 11:01:20.194 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 11:01:20.194 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 11:01:20.317 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 11:01:20.318 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1528 ms
+2020-04-09 11:01:20.386 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 11:01:20.588 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 11:01:20.663 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 11:01:20.727 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 11:01:20.834 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 11:01:21.079 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 11:01:21.256 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-09 11:01:21.258 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-09 11:01:21.271 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-09 11:09:22.354 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 17224 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 11:09:22.358 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 11:09:22.408 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 11:09:22.408 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 11:09:22.409 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 11:09:23.202 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 11:09:23.273 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 54ms. Found 1 JPA repository interfaces.
+2020-04-09 11:09:23.981 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 11:09:23.992 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 11:09:23.993 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 11:09:23.994 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 11:09:24.156 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 11:09:24.156 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1747 ms
+2020-04-09 11:09:24.276 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 11:09:24.488 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 11:09:24.592 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 11:09:24.660 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 11:09:24.796 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 11:09:25.113 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 11:09:26.045 INFO  jdbc.sqltiming Line:373 - create table nationality (id integer not null, name varchar(255), primary key (id)) engine=MyISAM 
+ {executed in 33 msec}
+2020-04-09 11:09:26.082 INFO  jdbc.sqltiming Line:373 - create table nationality_users (nationality_id integer not null, users_id integer not null) 
+engine=MyISAM 
+ {executed in 32 msec}
+2020-04-09 11:09:26.207 INFO  jdbc.sqltiming Line:373 - alter table user add column nationality integer 
+ {executed in 124 msec}
+2020-04-09 11:09:26.253 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint UK_lm5hb5fwat4ms3980axl1bscj unique (users_id) 
+ {executed in 37 msec}
+2020-04-09 11:09:26.301 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FK7bwhkuxiegm9rp1j0d0ct2ubg foreign key (users_id) 
+references user (id) 
+ {executed in 47 msec}
+2020-04-09 11:09:26.360 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FKqe4jjiuv6qk8xy71ls4lwcpkq foreign key (nationality_id) 
+references nationality (id) 
+ {executed in 58 msec}
+2020-04-09 11:09:26.463 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-09 11:09:26.476 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-09 11:09:27.134 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 11:09:27.438 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-09 11:09:27.464 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 11:09:27.467 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 5.611 seconds (JVM running for 7.052)
+2020-04-09 11:30:26.279 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 1116 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 11:30:26.283 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 11:30:26.336 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 11:30:26.337 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 11:30:26.337 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 11:30:27.004 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 11:30:27.070 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 54ms. Found 2 JPA repository interfaces.
+2020-04-09 11:30:27.623 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 11:30:27.631 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 11:30:27.632 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 11:30:27.632 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 11:30:27.742 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 11:30:27.743 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1406 ms
+2020-04-09 11:30:27.808 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 11:30:28.001 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 11:30:28.071 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 11:30:28.125 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 11:30:28.228 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 11:30:28.477 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 11:30:29.136 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FK7bwhkuxiegm9rp1j0d0ct2ubg foreign key (users_id) 
+references user (id) 
+ {executed in 39 msec}
+2020-04-09 11:30:29.184 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FKqe4jjiuv6qk8xy71ls4lwcpkq foreign key (nationality_id) 
+references nationality (id) 
+ {executed in 44 msec}
+2020-04-09 11:30:29.267 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-09 11:30:29.274 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-09 11:30:29.743 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 11:30:29.954 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-09 11:30:29.976 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 11:30:29.978 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.199 seconds (JVM running for 5.595)
+2020-04-09 11:30:42.165 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-09 11:30:42.165 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-09 11:30:42.171 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 5 ms
+2020-04-09 11:30:50.269 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-09 11:30:53.757 INFO  jdbc.sqltiming Line:373 - select nationalit0_.id as id1_0_, nationalit0_.name as name2_0_ from nationality nationalit0_ 
+order by nationalit0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-09 11:32:19.616 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 4080 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 11:32:19.620 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 11:32:19.672 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 11:32:19.672 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 11:32:19.672 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 11:32:20.351 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 11:32:20.415 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 57ms. Found 2 JPA repository interfaces.
+2020-04-09 11:32:21.018 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 11:32:21.025 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 11:32:21.026 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 11:32:21.026 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 11:32:21.136 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 11:32:21.137 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1464 ms
+2020-04-09 11:32:21.204 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 11:32:21.395 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 11:32:21.468 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 11:32:21.524 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 11:32:21.629 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 11:32:21.885 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 11:32:22.582 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FK7bwhkuxiegm9rp1j0d0ct2ubg foreign key (users_id) 
+references user (id) 
+ {executed in 50 msec}
+2020-04-09 11:32:22.623 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FKqe4jjiuv6qk8xy71ls4lwcpkq foreign key (nationality_id) 
+references nationality (id) 
+ {executed in 37 msec}
+2020-04-09 11:32:22.712 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-09 11:32:22.719 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-09 11:32:23.249 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 11:32:23.490 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-09 11:32:23.514 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 11:32:23.516 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.408 seconds (JVM running for 5.94)
+2020-04-09 13:43:20.990 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 12620 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 13:43:20.994 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 13:43:21.046 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 13:43:21.046 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 13:43:21.046 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 13:43:21.720 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 13:43:21.793 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 63ms. Found 2 JPA repository interfaces.
+2020-04-09 13:43:22.374 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 13:43:22.384 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 13:43:22.385 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 13:43:22.385 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 13:43:22.496 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 13:43:22.496 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1450 ms
+2020-04-09 13:43:22.563 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 13:43:22.727 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 13:43:22.814 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 13:43:22.894 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 13:43:23.039 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 13:43:23.351 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 13:43:24.127 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FK7bwhkuxiegm9rp1j0d0ct2ubg foreign key (users_id) 
+references user (id) 
+ {executed in 27 msec}
+2020-04-09 13:43:24.160 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FKqe4jjiuv6qk8xy71ls4lwcpkq foreign key (nationality_id) 
+references nationality (id) 
+ {executed in 30 msec}
+2020-04-09 13:43:24.229 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-09 13:43:24.236 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-09 13:43:24.274 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-09 13:43:24.782 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 13:43:25.124 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-09 13:43:25.148 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 13:43:25.151 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.713 seconds (JVM running for 6.596)
+2020-04-09 13:45:26.165 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-09 13:45:26.166 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-09 13:45:26.177 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 11 ms
+2020-04-09 13:45:34.966 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 3 msec}
+2020-04-09 13:45:38.899 INFO  jdbc.sqltiming Line:373 - select nationalit0_.id as id1_0_, nationalit0_.name as name2_0_ from nationality nationalit0_ 
+order by nationalit0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-09 13:45:38.946 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=1 
+ {executed in 12 msec}
+2020-04-09 13:45:38.952 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=2 
+ {executed in 0 msec}
+2020-04-09 13:45:38.954 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=3 
+ {executed in 1 msec}
+2020-04-09 13:45:44.821 INFO  jdbc.sqltiming Line:373 - select nationalit0_.id as id1_0_, nationalit0_.name as name2_0_ from nationality nationalit0_ 
+order by nationalit0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-09 13:45:44.825 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=1 
+ {executed in 1 msec}
+2020-04-09 13:45:44.827 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=2 
+ {executed in 0 msec}
+2020-04-09 13:45:44.828 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=3 
+ {executed in 1 msec}
+2020-04-09 13:45:55.510 INFO  jdbc.sqltiming Line:373 - select nationalit0_.id as id1_0_, nationalit0_.name as name2_0_ from nationality nationalit0_ 
+order by nationalit0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-09 13:45:55.514 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=1 
+ {executed in 1 msec}
+2020-04-09 13:45:55.516 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=2 
+ {executed in 1 msec}
+2020-04-09 13:45:55.517 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=3 
+ {executed in 0 msec}
+2020-04-09 13:46:54.145 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-09 13:47:00.760 INFO  jdbc.sqltiming Line:373 - select nationalit0_.id as id1_0_, nationalit0_.name as name2_0_ from nationality nationalit0_ 
+order by nationalit0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-09 13:47:00.768 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=1 
+ {executed in 1 msec}
+2020-04-09 13:47:00.770 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=2 
+ {executed in 1 msec}
+2020-04-09 13:47:00.772 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=3 
+ {executed in 0 msec}
+2020-04-09 13:48:23.828 INFO  jdbc.sqltiming Line:373 - select nationalit0_.id as id1_0_, nationalit0_.name as name2_0_ from nationality nationalit0_ 
+order by nationalit0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-09 13:48:23.834 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=1 
+ {executed in 0 msec}
+2020-04-09 13:48:23.837 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=2 
+ {executed in 2 msec}
+2020-04-09 13:48:23.839 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=3 
+ {executed in 0 msec}
+2020-04-09 13:52:09.381 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-09 13:52:59.375 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-09 13:53:09.964 INFO  jdbc.sqltiming Line:373 - select nationalit0_.id as id1_0_, nationalit0_.name as name2_0_ from nationality nationalit0_ 
+order by nationalit0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-09 13:53:09.975 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=1 
+ {executed in 0 msec}
+2020-04-09 13:53:09.977 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=2 
+ {executed in 0 msec}
+2020-04-09 13:53:09.979 INFO  jdbc.sqltiming Line:373 - select users0_.nationality_id as national1_1_0_, users0_.users_id as users_id2_1_0_, user1_.id 
+as id1_2_1_, user1_.age as age2_2_1_, user1_.hobby as hobby3_2_1_, user1_.name as name4_2_1_, 
+user1_.nationality as national7_2_1_, user1_.phone_number as phone_nu5_2_1_, user1_.sex as 
+sex6_2_1_, nationalit2_.id as id1_0_2_, nationalit2_.name as name2_0_2_ from nationality_users 
+users0_ inner join user user1_ on users0_.users_id=user1_.id left outer join nationality nationalit2_ 
+on user1_.nationality=nationalit2_.id where users0_.nationality_id=3 
+ {executed in 1 msec}
+2020-04-09 13:53:15.795 INFO  jdbc.sqltiming Line:373 - select next_val as id_val from hibernate_sequence for update 
+ {executed in 2 msec}
+2020-04-09 13:53:15.799 INFO  jdbc.sqltiming Line:373 - update hibernate_sequence set next_val= 330 where next_val=329 
+ {executed in 2 msec}
+2020-04-09 13:53:15.821 INFO  jdbc.sqltiming Line:373 - insert into user (age, hobby, name, nationality, phone_number, sex, id) values (11, '3', '11', 
+NULL, '13275867622', 0, 329) 
+ {executed in 1 msec}
+2020-04-09 13:53:18.176 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 0 msec}
+2020-04-09 14:04:15.412 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 2 msec}
+2020-04-09 14:04:22.155 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-09 14:16:27.403 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 6680 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 14:16:27.407 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 14:16:27.450 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 14:16:27.451 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 14:16:27.451 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 14:16:28.061 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 14:16:28.123 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+2020-04-09 14:16:28.662 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 14:16:28.670 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:16:28.671 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 14:16:28.671 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 14:16:28.763 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 14:16:28.764 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1313 ms
+2020-04-09 14:16:28.822 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 14:16:28.993 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 14:16:29.071 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 14:16:29.126 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 14:16:29.223 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 14:16:29.473 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 14:16:29.596 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-09 14:16:29.598 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-09 14:16:29.609 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-09 14:16:51.781 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 1580 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 14:16:51.785 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 14:16:51.835 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 14:16:51.835 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 14:16:51.835 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 14:16:52.462 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 14:16:52.521 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 53ms. Found 2 JPA repository interfaces.
+2020-04-09 14:16:53.049 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 14:16:53.057 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:16:53.058 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 14:16:53.058 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 14:16:53.154 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 14:16:53.155 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1319 ms
+2020-04-09 14:16:53.213 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 14:16:53.379 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 14:16:53.449 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 14:16:53.503 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 14:16:53.598 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 14:16:53.837 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 14:16:53.966 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-09 14:16:53.969 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-09 14:16:53.982 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-09 14:17:56.115 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 856 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 14:17:56.119 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 14:17:56.162 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 14:17:56.162 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 14:17:56.163 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 14:17:56.774 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 14:17:56.842 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 55ms. Found 2 JPA repository interfaces.
+2020-04-09 14:17:57.385 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 14:17:57.393 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:17:57.393 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 14:17:57.394 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 14:17:57.489 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 14:17:57.490 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1327 ms
+2020-04-09 14:17:57.549 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 14:17:57.711 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 14:17:57.781 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 14:17:57.833 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 14:17:57.940 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 14:17:58.204 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 14:17:58.342 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-09 14:17:58.346 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-09 14:17:58.358 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-09 14:21:58.586 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 1068 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 14:21:58.590 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 14:21:58.636 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 14:21:58.637 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 14:21:58.637 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 14:21:59.486 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 14:21:59.568 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 74ms. Found 2 JPA repository interfaces.
+2020-04-09 14:22:00.126 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 14:22:00.134 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:22:00.135 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 14:22:00.135 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 14:22:00.233 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 14:22:00.233 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1596 ms
+2020-04-09 14:22:00.292 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 14:22:00.484 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 14:22:00.562 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 14:22:00.621 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 14:22:00.720 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 14:22:00.966 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 14:22:01.104 INFO  com.alibaba.druid.pool.DruidDataSource Line:1825 - {dataSource-1} closed
+2020-04-09 14:22:01.107 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
+2020-04-09 14:22:01.118 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-09 14:23:45.331 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 4696 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 14:23:45.335 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 14:23:45.425 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 14:23:45.426 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 14:23:45.426 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 14:23:46.029 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 14:23:46.102 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 65ms. Found 2 JPA repository interfaces.
+2020-04-09 14:23:46.693 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 14:23:46.701 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:23:46.702 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 14:23:46.702 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 14:23:46.804 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 14:23:46.804 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1378 ms
+2020-04-09 14:23:46.863 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 14:23:47.036 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 14:23:47.120 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 14:23:47.176 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 14:23:47.280 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 14:23:47.517 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 14:23:48.203 INFO  jdbc.sqltiming Line:373 - create table hibernate_sequence (next_val bigint) engine=MyISAM 
+ {executed in 22 msec}
+2020-04-09 14:23:48.208 INFO  jdbc.sqltiming Line:373 - insert into hibernate_sequence values ( 1 ) 
+ {executed in 0 msec}
+2020-04-09 14:23:48.209 INFO  jdbc.sqltiming Line:373 - insert into hibernate_sequence values ( 1 ) 
+ {executed in 1 msec}
+2020-04-09 14:23:48.227 INFO  jdbc.sqltiming Line:373 - create table nationality (id integer not null, name varchar(255), primary key (id)) engine=MyISAM 
+ {executed in 17 msec}
+2020-04-09 14:23:48.247 INFO  jdbc.sqltiming Line:373 - create table nationality_users (nationality_id integer not null, users_id integer not null) 
+engine=MyISAM 
+ {executed in 19 msec}
+2020-04-09 14:23:48.265 INFO  jdbc.sqltiming Line:373 - create table user (id integer not null, age integer not null, hobby varchar(255), name varchar(255), 
+phone_number varchar(255), sex integer not null, nationality_id integer, primary key (id)) 
+engine=MyISAM 
+ {executed in 17 msec}
+2020-04-09 14:23:48.293 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint UK_lm5hb5fwat4ms3980axl1bscj unique (users_id) 
+ {executed in 21 msec}
+2020-04-09 14:23:48.321 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FK7bwhkuxiegm9rp1j0d0ct2ubg foreign key (users_id) 
+references user (id) 
+ {executed in 26 msec}
+2020-04-09 14:23:48.360 INFO  jdbc.sqltiming Line:373 - alter table nationality_users add constraint FKqe4jjiuv6qk8xy71ls4lwcpkq foreign key (nationality_id) 
+references nationality (id) 
+ {executed in 38 msec}
+2020-04-09 14:23:48.392 INFO  jdbc.sqltiming Line:373 - alter table user add constraint FKplagps7tcqdonj31pad31fwr2 foreign key (nationality_id) references 
+nationality (id) 
+ {executed in 31 msec}
+2020-04-09 14:23:48.394 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-09 14:23:48.408 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-09 14:23:48.447 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-09 14:23:48.977 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 14:23:49.219 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:23:49.239 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 14:23:49.241 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.415 seconds (JVM running for 5.58)
+2020-04-09 14:24:00.822 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-09 14:24:00.822 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
+2020-04-09 14:24:00.833 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 11 ms
+2020-04-09 14:24:01.937 INFO  jdbc.sqltiming Line:373 - select user0_.id as id1_2_, user0_.age as age2_2_, user0_.hobby as hobby3_2_, user0_.name as 
+name4_2_, user0_.nationality_id as national7_2_, user0_.phone_number as phone_nu5_2_, user0_.sex 
+as sex6_2_ from user user0_ order by user0_.id asc limit 10 
+ {executed in 9 msec}
+2020-04-09 14:24:05.930 INFO  jdbc.sqltiming Line:373 - select nationalit0_.id as id1_0_, nationalit0_.name as name2_0_ from nationality nationalit0_ 
+order by nationalit0_.id asc limit 10 
+ {executed in 1 msec}
+2020-04-09 14:28:36.278 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 13016 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 14:28:36.283 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 14:28:36.329 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 14:28:36.329 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 14:28:36.330 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 14:28:37.025 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 14:28:37.094 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 62ms. Found 2 JPA repository interfaces.
+2020-04-09 14:28:37.669 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 14:28:37.677 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:28:37.678 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 14:28:37.678 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 14:28:37.777 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 14:28:37.777 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1447 ms
+2020-04-09 14:28:37.838 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 14:28:38.024 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 14:28:38.104 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 14:28:38.167 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 14:28:38.283 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 14:28:38.600 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 14:28:39.316 INFO  jdbc.sqltiming Line:373 - alter table user add constraint FKplagps7tcqdonj31pad31fwr2 foreign key (nationality_id) references 
+nationality (id) 
+ {executed in 27 msec}
+2020-04-09 14:28:39.320 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-09 14:28:39.327 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-09 14:28:39.356 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-09 14:28:39.815 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 14:28:40.026 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:28:40.047 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 14:28:40.049 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.312 seconds (JVM running for 5.499)
+2020-04-09 14:29:09.312 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:55  - Starting SpringbootDataJpaApplication on Jamin with PID 6560 (D:\Documents\Java\springboot-data-jpa\target\classes started by Jamin in D:\Documents\Java\springboot-data-jpa)
+2020-04-09 14:29:09.315 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-04-09 14:29:09.395 INFO  org.springframework.boot.devtools.restart.ChangeableUrls Line:225 - The Class-Path manifest attribute in D:\Documents\Maven_Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Documents/Maven_Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-09 14:29:09.395 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 14:29:09.396 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 14:29:10.002 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-09 14:29:10.062 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+2020-04-09 14:29:10.605 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2020-04-09 14:29:10.613 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:29:10.614 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-04-09 14:29:10.614 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 14:29:10.712 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-04-09 14:29:10.713 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1317 ms
+2020-04-09 14:29:10.775 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+2020-04-09 14:29:10.945 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+2020-04-09 14:29:11.017 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-09 14:29:11.074 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-09 14:29:11.182 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-09 14:29:11.443 INFO  org.hibernate.dialect.Dialect Line:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-09 14:29:12.179 INFO  jdbc.sqltiming Line:373 - create table hibernate_sequence (next_val bigint) engine=MyISAM 
+ {executed in 19 msec}
+2020-04-09 14:29:12.184 INFO  jdbc.sqltiming Line:373 - insert into hibernate_sequence values ( 1 ) 
+ {executed in 1 msec}
+2020-04-09 14:29:12.185 INFO  jdbc.sqltiming Line:373 - insert into hibernate_sequence values ( 1 ) 
+ {executed in 0 msec}
+2020-04-09 14:29:12.203 INFO  jdbc.sqltiming Line:373 - create table nationality (id integer not null, name varchar(255), primary key (id)) engine=MyISAM 
+ {executed in 17 msec}
+2020-04-09 14:29:12.221 INFO  jdbc.sqltiming Line:373 - create table user (id integer not null, age integer not null, hobby varchar(255), name varchar(255), 
+phone_number varchar(255), sex integer not null, nationality_id integer, primary key (id)) 
+engine=MyISAM 
+ {executed in 17 msec}
+2020-04-09 14:29:12.250 INFO  jdbc.sqltiming Line:373 - alter table user add constraint FKplagps7tcqdonj31pad31fwr2 foreign key (nationality_id) references 
+nationality (id) 
+ {executed in 27 msec}
+2020-04-09 14:29:12.251 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-09 14:29:12.258 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-09 14:29:12.286 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2020-04-09 14:29:12.794 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 14:29:13.007 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-09 14:29:13.031 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 14:29:13.035 INFO  cn.jaminye.springbootdatajpa.SpringbootDataJpaApplication Line:61  - Started SpringbootDataJpaApplication in 4.179 seconds (JVM running for 5.709)
